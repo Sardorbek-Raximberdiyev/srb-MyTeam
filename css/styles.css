@@ -17,6 +17,10 @@
   outline-offset: 3px;
 }
 
+.site-footer__contact-link:focus {
+  outline-color: #002529;
+}
+
 html {
   height: 100%;
 }
