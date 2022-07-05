@@ -6,5 +6,5 @@ elsAboutFeatureItemLink.forEach(function (elButton, index) {
     evt.preventDefault();
     elsAboutFeatureItem[index].classList.toggle('js-about-feature__item--active');
     elButton.classList.toggle('js-about-item-link--active');
-  })
-})
+  });
+});

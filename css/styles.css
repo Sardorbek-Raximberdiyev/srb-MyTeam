@@ -445,9 +445,6 @@ body {
   content: "";
 }
 
-.about-content__feature {
-}
-
 .about-feature {
   position: relative;
   padding-top: 140px;
@@ -553,6 +550,7 @@ body {
 }
 
 .about-feature__item--active-text {
+  max-width: 254px;
   margin-top: 0;
   margin-bottom: 24px;
   line-height: 25px;
@@ -723,6 +721,7 @@ body {
   display: block;
   width: 100%;
   padding: 0;
+  padding-left: 15px;
   padding-bottom: 24px;
   border: 0;
   border-bottom: 1px solid #fff;
@@ -749,7 +748,6 @@ body {
 
 .contact-hero__input::placeholder {
   font-weight: 600;
-  padding-left: 15px;
   line-height: 25px;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -768,6 +766,7 @@ body {
 }
 
 textarea {
+  max-width: 540px;
   min-height: 87px;
   margin-bottom: 24px;
 }
